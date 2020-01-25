@@ -1,0 +1,62 @@
+.InputMaster {
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.InputMaster > label {
+    float: right;
+    width: 140px;
+    height:  40px;
+    font-size: 15px;
+    line-height: 37px;
+}
+
+.InputMaster > select {
+    height:  40px;
+    width: calc(100% - 142px);
+}
+
+h2.TitleSection {
+    margin: 20px 0 10px;
+    font-size:  20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+button#UpdateCpanel {
+    border: 0;
+    width:  100px;
+    height: 39px;
+    float: left;
+    background: #28c51e;
+    margin-left: 12px;
+    font-size: 20px;
+    color: white;
+    border-radius:  4px;
+    margin-top: 4px;
+}
+
+.alert-success {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #0000;
+    border-radius: 4px;
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    font-size:  16px;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+
+.InputMaster > textarea {
+    width:  calc(100% - 140px);
+    height: 50px;
+    float: right;
+}
+
+.InputMaster:after {
+    content: '';
+    display: block;
+    clear: both;
+}

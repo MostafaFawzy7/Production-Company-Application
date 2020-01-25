@@ -1,0 +1,8 @@
+body {
+    background-image:url(../img/graiator.jpg);
+}
+
+h2.title-news {
+    background-image: url(../img/weslingIcon.png);
+    background-size: 100px;
+}

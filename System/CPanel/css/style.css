@@ -1,0 +1,119 @@
+.InputMaster {
+    margin-bottom: 5px;
+    margin-left: 10px;
+    display: inline-flex;
+    flex: auto;
+}
+
+.InputMaster > label {
+    float: right;
+    width: 261px;
+    height:  40px;
+    background: #dadada;
+    margin-left: 5px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 38px;
+    font-weight: bold;
+    color: #000;
+}
+
+.InputMaster > select {
+    height:  40px;
+    width: calc(100% - 142px);
+    outline:0 !important;
+}
+.InputMaster > input {
+    height:  40px;
+    width: calc(100% - 142px);
+    box-shadow: 0 0 0 !important;
+    background: white;
+}
+
+h2.TitleSection {
+    font-size:  20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    background: #23282d;
+    height: 45px;
+    cursor:  pointer;
+    line-height:  46px;
+    color: white;
+    padding: 0px 10px;
+    margin-bottom: 11px;
+    border-radius: 5px;
+    margin-top: 6px;
+    margin-left: 10px;
+}
+
+button#UpdateCpanel {
+    border: 0;
+    width: 130px;
+    height: 50px;
+    background: #28c51e;
+    margin-left: 12px;
+    font-size: 24px;
+    color: white;
+    border-radius:  4px;
+    margin-top: 4px;
+    margin:  0 auto;
+    display: block;
+}
+
+.alert-success {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #0000;
+    border-radius: 4px;
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    font-size:  16px;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+
+.InputMaster > textarea {
+    width:  calc(100% - 140px);
+    height: 50px;
+    float: right;
+}
+
+.InputMaster:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+span.ImagePreview {
+    display:  inline-block;
+    width:  200px;
+    text-align:  left;
+    margin-right: 140px;
+    margin-top: 6px;
+}
+
+span.ImagePreview > a {
+    display: inline-block;
+    background: #da0f0f;
+    height:  35px;
+    text-decoration: none;
+    color: white;
+    font-size:  20px;
+    text-align: center;
+    line-height: 33px;
+    padding: 0px 15px;
+}
+
+span.ImagePreview img {display: block;margin: 4px auto;}
+
+.MasterInput {
+    display: flex;
+    width:  100% !important;
+}
+
+h2.TitleSection i {
+    float: right;
+    font-size: 30px;
+    margin: 8px 0 0 12px;
+}

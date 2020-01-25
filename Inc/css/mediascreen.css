@@ -1,0 +1,79 @@
+@media only screen 
+  and (max-device-width: 768px)
+  and (orientation: landscape) {
+    * {
+      max-width:100%;
+    }
+}
+@media all and (max-width: 768px) {
+  .teams > div span{
+    font-size: 12px;
+}
+  .teams > div.team1 img, .teams > div.team2 img{
+    width: 15px !IMPORTANT;
+    MARGIN: 0;
+    position: relative;
+    top: 14px;
+}
+  .list-table table td:not(:first-child) {
+    display: none;
+}
+  .moviefilm {
+    float: none;
+    margin: 0 auto 11px;
+    display: block;
+}
+  .sectionsCats > .section{
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
+}
+  .sectionsCats > .section > div > a{
+    float: none;
+    width: 90%;
+    margin: 0 auto;
+    clear: both;
+}
+  .section .container{
+    min-height: auto;
+    overflow: inherit;
+    height: auto !important;
+}
+  .list-table table th:not(:first-child) {
+    display: none;
+}
+  .filter-days > li{
+    display: block;
+    margin: 8px auto;
+}
+  .header {
+    position: relative;
+    height: auto;
+}
+  .headerShape{
+    height: auto;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+  .header .logo{
+    width: 210px;
+    top: 100%;
+    right: 50%;
+    margin-right: -105px;
+    margin-top: -43px;
+}
+  .main-menu{
+    margin-right: 7px;
+    width: auto;
+    margin-top: 10px;
+}
+  .owl-pagination{
+    top: 4px;
+}
+  * {
+      max-width:100%;
+    }
+    .search-box {
+        display:none;
+    }
+}
